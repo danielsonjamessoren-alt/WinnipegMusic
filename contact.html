@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<HTML lang = "en">
+	<head>
+		<title>Winnipeg Music Tonight</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../styles/styles.css">
+		<link rel="icon" href="../images/logoMBMusic.png">
+		<style>
+			header {background-image: url(../images/titleBackground.png); 
+					background-position: center;
+					background-repeat: no-repeat;}
+			p {font-size: 15px;
+				color: #ffffff;
+				margin-left: auto;
+				margin-right: auto;}
+			main {margin-bottom: 20%;}
+		</style>
+	</head>
+	<header>
+		<img src="../images/logoMBMusic.png" height="60px">Winnipeg Music Tonight
+	</header>
+	<body>
+		<div id="nav">
+			<nav>
+				<ul style="color: #000000;">
+					<li><a href="../index.HTML">Home</a></li>
+					<li><a href="venues.html">Venues</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="main">
+			<main>
+				<form style="width:560px;">
+					<table style="width:560px;  border-top: 3px solid #fff;">
+					
+						<caption>Registration Form</caption>
+							<tr>
+								<td>First Name:</td>
+								<td style="text-align: left;"><input type="text" name="first"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Last Name:</td>
+								<td style="text-align: left;"><input type="text" name="last"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Street Adress:</td>
+								<td style="text-align: left;"><input type="text" name="streetAdress"></td>
+							</tr>
+							<tr>
+								<td>Address</td>
+								<td>City:</td>
+								<td style="text-align: left;"><input type="text" name="city"></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Postal Code:</td>
+								<td style="text-align: left;"><input type="text" name="postalCode" maxlength="6ch"></td>
+							</tr>
+							<tr>
+								<td>User Name:</td>
+								<td style="text-align: left;"><input type="text" name="userName"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Password:</td>
+								<td style="text-align: left;"><input type="password" name="password"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Email Address:</td>
+								<td style="text-align: left;"><input type="email" name="email"></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Phone Number:</td>
+								<td style="text-align: left;"><input type="tel" name="phoneNum"></td>
+								<td></td>
+							</tr>
+							
+						<th colspan="3">How would you like to be contacted?</th>
+							<tr>
+								<td><input type="radio" name="contactMethod" value="textMessage"></td>
+								<td style="text-align: left;">Text Message</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="contactMethod" value="email"></td>
+								<td style="text-align: left;">Email</td>
+								<td></td>
+							</tr>
+							
+						<th colspan="3">Which course(s) are you registering?</th>
+							<tr>
+								<td><input type="checkbox" name="Class" value="1805"></td>
+								<td style="text-align: left;">ACS-1805</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" name="Class" value="1809"></td>
+								<td style="text-align: left;">ACS-1809</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td style="border-bottom: 1px none #fff;"><input type="checkbox" name="Class" value="1803"></td>
+								<td colspan="2" style="text-align: left; border-bottom: 2px solid #fff;">ACS-1803</td>
+							</tr>
+							<tr>
+								<td>Payment Method:</td>
+								<td colspan="2" style="text-align: center;">
+									<select name="payment method">
+										<option value="visa">Visa</option>
+										<option value="masterCard">MasterCard</option>
+										<option value="amex">Amex</option>
+									</select>
+								</td>
+							</tr>
+							
+						<th colspan="3">Special Request</th>
+							<tr>
+								<td colspan="3"><textarea name="request" rows="6ch" cols="73ch"></textarea></td>
+							</tr>
+							
+							<tr>
+								<td style="border-top: 3px none #fff;">Rate Your Previous</td>
+								<td colspan="2" rowspan="3" style="text-align: center; border-top: 3px solid #fff;">
+									0<input type="range" name="experience" min="0" max="10">10
+								</td>
+							</tr>
+							<tr>
+								<td style="border-top: 3px none #fff;">Experience(where 10</td>
+							</tr>
+							<tr>
+								<td style="border-top: 3px none #fff;">the best):</td>
+							</tr>
+							
+						<th colspan="3"><input type="submit" name="submit"><input type="reset" name="reset"></th>
+					</table>
+				</form>
+			</main>
+		</div>
+		<div id="courseInfo">
+			<courseInfo>
+				<p style="font-size: 19px;">
+					Course Info
+				</p>
+				<p style="font-size: 19px;">
+					ACS-1809
+					001
+				</p>
+				<p style="font-size: 20px;">
+					James Deng 
+				</p >
+				<p style="font-size: 20px;">
+					<a href="mailto:j&#46;deng&#64;uwinnipeg&#46;ca">Email</a>
+				</p>
+			</courseInfo>
+		</div>
+		<div id="footer">
+			<footer>
+				<p style="font-size:25px; margin-left: auto;
+								margin-right: auto;
+								width: 32ch;
+								color:#fffdd0;">
+					<a href="mailto:danielson-s61&#64;webmail&#46;uwinnipeg&#46;ca" style="color:#fffdd0"> Email Me</a>
+					 Soren Danielson 3131089
+				</p>
+			</footer> 
+		</div>
+	</body>
+</html> 
